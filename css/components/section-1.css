@@ -1,0 +1,30 @@
+.section-1 {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+  margin-bottom: 80px;
+}
+
+.section-1-content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.download-button-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.section-1.section-3 {
+  gap: 50px;
+  margin-bottom: 175px;
+}

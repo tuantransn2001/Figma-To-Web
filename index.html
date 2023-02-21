@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST FRONTEND BASIC</title>
+    <!-- SWipper -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="./assets/icon/fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/icon/fontawesome-free-6.3.0-desktop/"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app grid wide">
+      <!-- Header -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <header id="header">
+            <a href="#" class="logo-wrapper">
+              <img src="./assets/header/logo.png" alt="logo" />
+            </a>
+
+            <nav id="nav">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Product</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </div>
+      <!-- Banner -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="banner-slider">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    class="slide-item"
+                    src="./assets/banner/slide1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slide-item"
+                    src="./assets/banner/slide1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slide-item"
+                    src="./assets/banner/slide1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slide-item"
+                    src="./assets/banner/slide1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slide-item"
+                    src="./assets/banner/slide1.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section 1 -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="section-1">
+            <div class="section-1-img-wrapper">
+              <img src="./assets/section/phone.png" alt="section-1" />
+            </div>
+
+            <div class="section-1-content-wrapper">
+              <h2 class="section-title">Apps for customers</h2>
+              <p class="section-paragraph">
+                The general idea behind "diversification" is to <br />
+                provide a Service ecosystem that fully caters to all<br />
+                customer needs from the smallest needs
+              </p>
+
+              <div class="buttons-wrapper">
+                <div class="download-button-wrapper">
+                  <button class="download-button">
+                    <img src="./assets/section/download-gg-play.png" alt="" />
+                  </button>
+                  <button class="download-button">
+                    <img src="./assets/section/download-app-store.png" alt="" />
+                  </button>
+                </div>
+
+                <button class="see-more-button">
+                  See more
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="section-2">
+            <h2 class="section-title">
+              Outstanding features of the Client App
+            </h2>
+
+            <div class="section-2-content-wrapper">
+              <div class="section-2-img-wrapper">
+                <img src="./assets/section/phone-single.png" alt="" />
+              </div>
+
+              <div class="section-2-content-wrapper">
+                <ul>
+                  <li>
+                    <div class="section-2-content">
+                      <div class="section-2-content-left">
+                        <span class="section-2-content-left-num">1</span>
+                        <span class="section-2-content-left-arrow">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                      </div>
+                      <div class="section-2-content-right">
+                        <h3 class="section-subtitle">
+                          Search service in just one button
+                        </h3>
+                        <span class="section-paragraph"
+                          >Enjoy convenience in just one app.</span
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="section-2-content active">
+                      <div class="section-2-content-left">
+                        <span class="section-2-content-left-num">2</span>
+                        <span class="section-2-content-left-arrow">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                      </div>
+                      <div class="section-2-content-right">
+                        <h3 class="section-subtitle">
+                          Connecting diverse information
+                        </h3>
+                        <span class="section-paragraph"
+                          >Not only chat now you can voice chat and make called
+                          <br />
+                          to quickly connect with the performer</span
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="section-2-content">
+                      <div class="section-2-content-left">
+                        <span class="section-2-content-left-num">3</span>
+                        <span class="section-2-content-left-arrow">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                      </div>
+                      <div class="section-2-content-right">
+                        <h3 class="section-subtitle">Update status service</h3>
+                        <span class="section-paragraph"
+                          >You can know the status of repair or work completed
+                          <br />
+                          while away from home.</span
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="section-2-content">
+                      <div class="section-2-content-left">
+                        <span class="section-2-content-left-num">4</span>
+                        <span class="section-2-content-left-arrow">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                      </div>
+                      <div class="section-2-content-right">
+                        <h3 class="section-subtitle">
+                          Complete safe and quality service
+                        </h3>
+                        <span class="section-paragraph"
+                          >You will feel secure when you see the report image
+                          and easily evaluate <br />
+                          quality service whenever</span
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section 3-->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="section-1">
+            <div class="section-1-content-wrapper">
+              <h2 class="section-title">Apps for Business</h2>
+              <p class="section-paragraph">
+                One of the advantages of Multi-Industry Services is <br />
+                that it helps reduce the impact of unexpected <br />
+                fluctuations in any one industry. Bringing diverse <br />
+                to businesses
+              </p>
+
+              <div class="buttons-wrapper">
+                <div class="download-button-wrapper">
+                  <button class="download-button">
+                    <img src="./assets/section/download-gg-play.png" alt="" />
+                  </button>
+                  <button class="download-button">
+                    <img src="./assets/section/download-app-store.png" alt="" />
+                  </button>
+                </div>
+
+                <button class="see-more-button">
+                  See more
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="section-1-img-wrapper">
+              <img src="./assets/section/phone.png" alt="section-1" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="section-1 section-3">
+            <div class="section-1-img-wrapper">
+              <img src="./assets/section/macboook.png" alt="section-1" />
+            </div>
+
+            <div class="section-1-content-wrapper">
+              <h2 class="section-title">Apps for Managers</h2>
+              <p class="section-paragraph">
+                Each branch of service provides is independent of <br />
+                the other business areas, but the activities of the <br />
+                services will be reported to senior management of <br />
+                the company that owns the application.
+              </p>
+
+              <div class="buttons-wrapper">
+                <div class="download-button-wrapper">
+                  <button class="download-button">
+                    <img src="./assets/section/download-gg-play.png" alt="" />
+                  </button>
+                  <button class="download-button">
+                    <img src="./assets/section/download-app-store.png" alt="" />
+                  </button>
+                </div>
+
+                <button class="see-more-button">
+                  See more
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why choose us -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="why-choose-us-wrapper">
+            <h2 class="section-subtitle">Why choose us</h2>
+            <p class="section-paragraph-small">
+              Modern consumer trends: Focus on top-selected services. Changing
+              business <br />
+              models to adapt to new consumer trends: Applying the latest
+              technology
+            </p>
+            <div class="reason-list-wrapper">
+              <ul>
+                <li>
+                  <div class="reason-item">
+                    <img src="./assets/section/WhyChooseUs/pro.png" alt="" />
+                    <span class="text-strong">Professional</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="reason-item">
+                    <img src="./assets/section/WhyChooseUs/fast.png" alt="" />
+                    <span class="text-strong">Fast</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="reason-item">
+                    <img src="./assets/section/WhyChooseUs/multi.png" alt="" />
+                    <span class="text-strong">Multi service</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="reason-item">
+                    <img src="./assets/section/WhyChooseUs/safe.png" alt="" />
+                    <span class="text-strong">Safety, quality</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our servies -->
+      <div class="row">
+        <div class="c-12 gutter">
+          <div class="our-servces-wrapper">
+            <div class="our-sevices-top">
+              <h2 class="section-title">Learn more about the services</h2>
+            </div>
+
+            <div class="our-services-bottom">
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Cleaning</span>
+                          <p class="section-paragraph">
+                            Hiện đại và uy tín, <br />
+                            Tạo không gian sống sạch đẹp
+                          </p>
+                        </div>
+                      </div>
+                      <button class="explore-more">Tìm hiểu thêm</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <img src="./assets/section/ourServices/1.png" alt="" />
+                      <div class="services-item-content-wrapper">
+                        <div class="services-item-content">
+                          <span class="text-strong">Appliances</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Household</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Electronic</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Cleaning</span>
+                          <p class="section-paragraph">
+                            Hiện đại và uy tín, <br />
+                            Tạo không gian sống sạch đẹp
+                          </p>
+                        </div>
+                      </div>
+                      <button class="explore-more">Tìm hiểu thêm</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <img src="./assets/section/ourServices/1.png" alt="" />
+                      <div class="services-item-content-wrapper">
+                        <div class="services-item-content">
+                          <span class="text-strong">Appliances</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Household</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="services-item">
+                      <div class="services-item-content-wrapper">
+                        <img src="./assets/section/ourServices/1.png" alt="" />
+                        <div class="services-item-content">
+                          <span class="text-strong">Electronic</span>
+                          <p class="section-paragraph">Experience...</p>
+                        </div>
+
+                        <button class="explore-more">Tìm hiểu thêm</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper2 = new Swiper(".mySwiper2", {
+      slidesPerView: 4,
+      spaceBetween: 0,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>

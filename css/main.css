@@ -1,0 +1,27 @@
+@import "../css/helpers/variable.css";
+@import "../css/helpers/extend.css";
+@import "../css/helpers/grid.css";
+
+@import "./components/header.css";
+@import "./components/banner.css";
+@import "./components/section-1.css";
+@import "./components/section-2.css";
+@import "./components/whyChooseUs.css";
+@import "./components/swipper.css";
+@import "./components/ourSevices.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+* button {
+  border: none;
+  cursor: pointer;
+}
+
+.app {
+  background-color: var(--white-color);
+}

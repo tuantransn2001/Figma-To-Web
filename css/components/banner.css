@@ -1,0 +1,9 @@
+.banner-slider {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.slide-item {
+  width: 100%;
+  height: 1080px;
+}

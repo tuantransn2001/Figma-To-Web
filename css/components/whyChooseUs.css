@@ -1,0 +1,35 @@
+.why-choose-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 152px;
+}
+
+.why-choose-us-wrapper h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+.reason-list-wrapper {
+  margin-top: 73px;
+}
+
+.reason-list-wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.reason-item {
+  width: 270px;
+  height: 226px;
+  padding: 27px 0;
+  background-color: var(--white-color);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
